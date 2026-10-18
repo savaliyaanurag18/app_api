@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "ads_enabled": true,
+  "ads_enabled": false,
   "interstitial_gap_seconds": 10,
   "splash_fullscreen_count": 2,
   "fullscreen_close_delay_seconds": 5,
