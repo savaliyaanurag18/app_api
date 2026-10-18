@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "ads_enabled": true,
+  "interstitial_gap_seconds": 10,
+  "splash_fullscreen_count": 2,
+  "fullscreen_close_delay_seconds": 5,
+  "android": {
+    "units": {
+      "app_open":       ["ca-app-pub-3940256099942544/9257395921"],
+      "interstitial":   ["ca-app-pub-3940256099942544/1033173712"],
+      "banner":         ["ca-app-pub-3940256099942544/9214589741"],
+      "native_default": ["ca-app-pub-3940256099942544/2247696110"],
+      "native": {
+        "splash":               ["ca-app-pub-3940256099942544/2247696110"],
+        "splashFullscreen":     ["ca-app-pub-3940256099942544/2247696110"],
+        "language":             ["ca-app-pub-3940256099942544/2247696110"],
+        "onboardingFullscreen": ["ca-app-pub-3940256099942544/2247696110"],
+        "onboardingPage3":      ["ca-app-pub-3940256099942544/2247696110"],
+        "onboardingPage5":      ["ca-app-pub-3940256099942544/2247696110"],
+        "selectFeature":        ["ca-app-pub-3940256099942544/2247696110"],
+        "home":                 ["ca-app-pub-3940256099942544/2247696110"],
+        "cameraLiveTop":        ["ca-app-pub-3940256099942544/2247696110"],
+        "cameraLiveBottom":     ["ca-app-pub-3940256099942544/2247696110"],
+        "camDialog":            ["ca-app-pub-3940256099942544/2247696110"],
+        "youtube":              ["ca-app-pub-3940256099942544/2247696110"],
+        "list":                 ["ca-app-pub-3940256099942544/2247696110"],
+        "globeTop":             ["ca-app-pub-3940256099942544/2247696110"],
+        "globeBottom":          ["ca-app-pub-3940256099942544/2247696110"],
+        "pano":                 ["ca-app-pub-3940256099942544/2247696110"],
+        "friendTracker":        ["ca-app-pub-3940256099942544/2247696110"],
+        "compass":              ["ca-app-pub-3940256099942544/2247696110"],
+        "gpsCamera":            ["ca-app-pub-3940256099942544/2247696110"],
+        "captured":             ["ca-app-pub-3940256099942544/2247696110"],
+        "worldClock":           ["ca-app-pub-3940256099942544/2247696110"],
+        "uninstall":            ["ca-app-pub-3940256099942544/2247696110"]
+      }
+    }
+  },
+  "ios": {
+    "units": {
+      "app_open":       ["ca-app-pub-3940256099942544/5575463023"],
+      "interstitial":   ["ca-app-pub-3940256099942544/4411468910"],
+      "banner":         ["ca-app-pub-3940256099942544/2435281174"],
+      "native_default": ["ca-app-pub-3940256099942544/3986624511"],
+      "native": {}
+    }
+  }
+}
