@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "config_url": "",
+  "update": {
+    "enabled": true,
+    "latest_version_code": 1,
+    "min_version_code": 1,
+    "title": "Update available",
+    "message": "A new version of Pdfora is ready with improvements and fixes.",
+    "force_title": "Update required",
+    "force_message": "This version is no longer supported. Update Pdfora to keep using it.",
+    "remind_after_hours": 24
+  },
+  "rating": {
+    "enabled": true,
+    "ask_again_after_launches": 10,
+    "max_asks": 3
+  },
+  "ads": {
+    "enabled": true,
+    "test_mode": true,
+    "show_after_clicks": 3,
+    "request": {
+      "timeout_ms": 8000,
+      "max_retries": 1,
+      "retry_base_seconds": 2,
+      "retry_max_seconds": 120,
+      "keywords": [
+        "pdf",
+        "documents",
+        "productivity",
+        "office"
+      ]
+    },
+    "global": {
+      "min_seconds_between_fullscreen": 30,
+      "max_fullscreen_per_session": 6,
+      "first_fullscreen_after_seconds": 0,
+      "grace_launches": 0
+    },
+    "banner": {
+      "enabled": true,
+      "refresh_seconds": 60,
+      "placements": {
+        "shell_bottom": true,
+        "reader_bottom": true,
+        "organize_bottom": true
+      },
+      "ad_units": [
+        "ca-app-pub-3940256099942544/9214589741"
+      ]
+    },
+    "native_small": {
+      "enabled": true,
+      "refresh_seconds": 0,
+      "preload_count": 1,
+      "positions": [
+        "home_feed",
+        "files_feed",
+        "scanner_tab",
+        "tools_top",
+        "settings_bottom",
+        "tool_form",
+        "image_to_pdf",
+        "ocr",
+        "default_viewer",
+        "save_success"
+      ],
+      "ad_units": [
+        "ca-app-pub-3940256099942544/2247696110"
+      ]
+    },
+    "native_medium": {
+      "enabled": true,
+      "refresh_seconds": 0,
+      "preload_count": 0,
+      "positions": [
+        "exit_sheet",
+        "tool_result"
+      ],
+      "ad_units": [
+        "ca-app-pub-3940256099942544/2247696110"
+      ]
+    },
+    "native_large": {
+      "enabled": true,
+      "refresh_seconds": 0,
+      "preload_count": 0,
+      "positions": [
+        "onboarding"
+      ],
+      "ad_units": [
+        "ca-app-pub-3940256099942544/2247696110"
+      ]
+    },
+    "interstitial": {
+      "enabled": true,
+      "preload": true,
+      "cooldown_seconds": 30,
+      "max_per_session": 5,
+      "triggers": {
+        "bottom_navigation": true,
+        "navigation": true,
+        "drawer": false,
+        "screen_open": false,
+        "screen_close": true,
+        "exit": false
+      },
+      "screen_open": [
+        "tool",
+        "ocr",
+        "image_to_pdf",
+        "organize",
+        "form_fill"
+      ],
+      "screen_close": [
+        "reader",
+        "editor"
+      ],
+      "ad_units": [
+        "ca-app-pub-3940256099942544/1033173712"
+      ]
+    },
+    "reward": {
+      "enabled": true,
+      "preload": true,
+      "cooldown_seconds": 60,
+      "load_timeout_ms": 6000,
+      "allow_when_unavailable": false,
+      "placements": {
+        "save": {
+          "enabled": false,
+          "title": "Save your PDF",
+          "message": "Watch a short video to save your edited PDF."
+        },
+        "download": {
+          "enabled": false,
+          "title": "Save to My Files",
+          "message": "Watch a short video to keep this PDF in My Files."
+        },
+        "tool_save": {
+          "enabled": false,
+          "title": "Create your PDF",
+          "message": "Watch a short video to create and save your new PDF."
+        },
+        "image_to_pdf": {
+          "enabled": false,
+          "title": "Create your PDF",
+          "message": "Watch a short video to turn your images into a PDF."
+        },
+        "id_card": {
+          "enabled": false,
+          "title": "Save your ID card",
+          "message": "Watch a short video to save your ID card PDF."
+        },
+        "premium": {
+          "enabled": false,
+          "title": "Try a premium tool",
+          "message": "Watch a short ad to unlock this tool once."
+        },
+        "unlock": {
+          "enabled": false
+        },
+        "continue": {
+          "enabled": false
+        },
+        "extra_coins": {
+          "enabled": false,
+          "reward_amount": 10
+        },
+        "extra_life": {
+          "enabled": false,
+          "reward_amount": 1
+        }
+      },
+      "ad_units": [
+        "ca-app-pub-3940256099942544/5224354917"
+      ]
+    },
+    "app_open": {
+      "enabled": true,
+      "show_on_cold_start": true,
+      "show_on_resume": true,
+      "cold_start_timeout_ms": 6000,
+      "min_background_seconds": 30,
+      "cooldown_seconds": 240,
+      "max_cache_hours": 4,
+      "ad_units": [
+        "ca-app-pub-3940256099942544/9257395921"
+      ]
+    }
+  }
+}
