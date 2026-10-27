@@ -75,7 +75,6 @@
       "refresh_seconds": 0,
       "preload_count": 0,
       "positions": [
-        "exit_sheet",
         "tool_result"
       ],
       "ad_units": [
