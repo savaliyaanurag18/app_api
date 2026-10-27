@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "config_url": "",
+  "config_url": "https://raw.githubusercontent.com/savaliyaanurag18/app_api/main/pdfora.json",
   "update": {
     "enabled": true,
     "latest_version_code": 1,
